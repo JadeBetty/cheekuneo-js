@@ -7,8 +7,8 @@
   "scripts": {
     "prettier": "prettier --write .",
     "husky": "husky install",
-    "test": "",
-    "start": ""
+    "test": "nodemon src/index.js -e js,json,env",
+    "start": "nodemon --ignore *.js src/index.js"
   },
   "husky": {
     "hooks": {
