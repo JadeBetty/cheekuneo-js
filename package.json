@@ -1,0 +1,31 @@
+{
+  "name": "cheekuneo-js",
+  "version": "1.0.0",
+  "description": "This is the source code for Cheekuneo but coded inside JavaScript",
+  "main": "src/index.js",
+  "scripts": {
+    "prettier": "prettier --write .",
+    "husky": "husky install",
+    "test": "",
+    "start": ""
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run prettier"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ngyang018/cheekuneo-js.git"
+  },
+  "author": "JadeBetty",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ngyang018/cheekuneo-js/issues"
+  },
+  "homepage": "https://github.com/Ngyang018/cheekuneo-js#readme",
+  "devDependencies": {
+    "husky": "^8.0.3",
+    "prettier": "3.0.2"
+  }
+}
