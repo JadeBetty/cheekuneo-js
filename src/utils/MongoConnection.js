@@ -1,3 +1,1 @@
-export default function MongoConnection() {
-    
-}
+export default function MongoConnection() {}

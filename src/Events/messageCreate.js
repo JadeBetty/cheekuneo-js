@@ -1,6 +1,4 @@
 export default {
-    name: "messageCreate",
-    run: async (message, client) => {
-        
-    }
-}
+  name: 'messageCreate',
+  run: async (message, client) => {},
+};
