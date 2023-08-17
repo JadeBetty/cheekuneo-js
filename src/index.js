@@ -1,3 +1,3 @@
-import { Cheekuneo } from './lib/cheekuneo.js';
+import { Cheekuneo } from './utils/cheekuneo.js';
 
 Cheekuneo();

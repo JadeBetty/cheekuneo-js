@@ -1,8 +1,8 @@
-import { client } from "../lib/cheekuneo.js";
+import { client } from "./cheekuneo.js";
 import glob from "glob"
 import { promisify } from 'util';
 const globPromise = promisify(glob);
-import logger from "../lib/logger.js";
+import { logger } from 'console-wizard'
 import { pathToFileURL } from 'url'
 
 export default async function HandleEvents() {
